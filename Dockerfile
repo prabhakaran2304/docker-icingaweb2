@@ -1,14 +1,14 @@
 FROM alpine
 
-MAINTAINER Christoph Wiechert <wio@psitrax.de>
+MAINTAINER Prabhakaran V <prabhavarul@gmail.com>
 
-ENV REFRESHED_AT="2018-11-23"\
-    ICINGAWEB_VERSION="2.6.2" \
-    DIRECTOR_VERSION="1.6.0" \
+ENV REFRESHED_AT="2019-06-25"\
+    ICINGAWEB_VERSION="2.6.3" \
+    DIRECTOR_VERSION="1.6.2" \
     CUBE_VERSION="1.0.1" \
-    GRAFANA_VERSION="1.3.2" \
-    BUSINESSPROCESS_VERSION="2.1.0" \
-    TIMEZONE="UTC" \
+    GRAFANA_VERSION="1.3.5" \
+    BUSINESSPROCESS_VERSION="2.2.0" \
+    TIMEZONE="UTC+05:30" \
     ICINGAWEB_AUTOCONF=true \
     DIRECTOR_INSERT_DEFAULTS=true \
     ICINGA_API_PASS="super-secret" \
@@ -16,7 +16,7 @@ ENV REFRESHED_AT="2018-11-23"\
     WEB_DB_HOST="mysql" \
     WEB_DB_PORT="3306" \
     WEB_DB_USER="root" \
-    WEB_DB_PASS="root" \
+    WEB_DB_PASS="Reset@123" \
     WEB_DB="icingaweb2" \
     IDO_DB_TYPE="" \
     IDO_DB_HOST="" \
