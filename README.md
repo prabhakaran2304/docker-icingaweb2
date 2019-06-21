@@ -42,7 +42,7 @@ sudo docker run \
   -e ICINGA_API_PASS=damn-secret \
   -e WEB_DB_PASS=top-secret \
   -v $PWD/conf:/etc/icingaweb2 \
-  psitrax/icingaweb2
+  prabhakaran2304/docker-icingaweb2
 ```
 
 
