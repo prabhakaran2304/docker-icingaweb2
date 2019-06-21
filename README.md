@@ -3,7 +3,7 @@
 [![Image Size](https://images.microbadger.com/badges/image/psitrax/icingaweb2.svg)](https://microbadger.com/images/psitrax/icingaweb2)
 [![Docker Stars](https://img.shields.io/docker/stars/psitrax/icingaweb2.svg)](https://hub.docker.com/r/psitrax/icingaweb2/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/psitrax/icingaweb2.svg)](https://hub.docker.com/r/psitrax/icingaweb2/)
-[![Docker Automated buil](https://img.shields.io/docker/automated/psitrax/icingaweb2.svg)](https://hub.docker.com/r/psitrax/icingaweb2/)
+[![Docker Automated buil](https://img.shields.io/docker/automated/psitrax/icingaweb2.svg)](https://hub.docker.com/r/prabhakaran2304/docker-icingaweb2)
 
 * Icingaweb2 v2.6.3
   * Director v1.6.2
