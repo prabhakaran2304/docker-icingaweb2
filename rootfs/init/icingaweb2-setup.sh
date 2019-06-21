@@ -2,7 +2,7 @@
 set -e
 
 # Set timezone for PHP
-sed -r -i "s~^;?date.timezone =.*~date.timezone = ${TIMEZONE:-UTC}~" /etc/php7/php.ini
+sed -r -i "s~^;?date.timezone =.*~date.timezone = ${TIMEZONE:UTC+5:30}~" /etc/php7/php.ini
 
 [ "$ICINGAWEB_AUTOCONF" == false ] && exit 0 || true
 
@@ -35,4 +35,3 @@ if [ -n "$ICINGA_API_PASS" ] ; then
 fi
 
 chown -R apache /etc/icingaweb2
-
