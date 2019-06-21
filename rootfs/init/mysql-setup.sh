@@ -29,7 +29,7 @@ if [ "$(echo "SELECT COUNT(*) FROM information_schema.tables WHERE table_schema 
   cat /icingaweb2/etc/schema/mysql.schema.sql | $MYSQLCMD
 
   # create admin user. Pass: admin
-  ADMIN_PASS='$1$7akZL1zu$3u0pors2zz.6PnQViccld1'
+  ADMIN_PASS='$1$3Zdze7Vx$ltv6dIxFqZWP3BP5Nt2D6.'
   echo "INSERT INTO icingaweb_user (name, active, password_hash) VALUES ('admin', 1, '$ADMIN_PASS');" | $MYSQLCMD
   echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
   echo "!!! User admin with pass admin created. PLEASE CHANGE !!!"
