@@ -38,7 +38,7 @@ sudo docker run \
   --link mysql \
   --link icinga2 \
   -p 8080:80 \
-  -e TIMEZONE=Europe/Berlin \
+  -e TIMEZONE=Asia/Kolkata \
   -e ICINGA_API_PASS=damn-secret \
   -e WEB_DB_PASS=top-secret \
   -v $PWD/conf:/etc/icingaweb2 \
